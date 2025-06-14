@@ -38,8 +38,8 @@ Thumbs.db
 .env
 .env.local
 
-# Binary
-promptcaddy
+# Binary (only at root)
+/promptcaddy
 
 # Temporary files
 *.tmp

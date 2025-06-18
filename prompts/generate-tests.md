@@ -1,5 +1,5 @@
 ---
-id: "testgen.generate-unit-tests.v1"
+id: "testgen-generate-unit-tests-v1"
 title: "Generate Unit Tests"
 description: "Generates unit tests for the selected code using the specified framework."
 version: "1.0.2"

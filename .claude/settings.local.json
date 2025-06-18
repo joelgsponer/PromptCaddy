@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(./promptcaddy serve:*)",
+      "Bash(timeout:*)",
+      "Bash(grep:*)",
+      "Bash(cp:*)",
+      "mcp__promptcaddy__greet-v1",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  },
+  "enabledMcpjsonServers": [
+    "promptcaddy"
+  ]
+}

@@ -1,5 +1,5 @@
 ---
-id: "docs.explain-code.v1"
+id: "docs-explain-code-v1"
 title: "Explain Code"
 description: "Provides a detailed explanation of the selected code."
 version: "1.0.0"

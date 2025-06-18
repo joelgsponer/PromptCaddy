@@ -2,7 +2,6 @@ package core
 
 import (
 	"fmt"
-	"io"
 	"os"
 	"path/filepath"
 	"strings"
@@ -95,13 +94,8 @@ func (p *Prompter) loadPromptFile(path string) (*Prompt, error) {
 		return nil, fmt.Errorf("failed to parse frontmatter: %w", err)
 	}
 
-	// Read the remaining content
-	contentBytes, err := io.ReadAll(content)
-	if err != nil {
-		return nil, fmt.Errorf("failed to read content: %w", err)
-	}
-
-	prompt.Content = string(contentBytes)
+	// The content is already a byte slice
+	prompt.Content = string(content)
 	prompt.FilePath = path
 
 	return &prompt, nil

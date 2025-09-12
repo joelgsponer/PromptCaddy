@@ -44,3 +44,7 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+# Claude-specific files
+.claude/
+CLAUDE.md
+**/.claude/

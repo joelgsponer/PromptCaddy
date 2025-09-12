@@ -1,7 +1,7 @@
 ---
-id: "docs-explain-code-v1"
-title: "Explain Code"
-description: "Provides a detailed explanation of the selected code."
+id: "github-add-issue-v1"
+title: "Add an issue to GitHub"
+description: "Provides a detailed explanation of how to add an issue to GitHub."
 version: "1.0.0"
 parameters:
   - name: "issue_description"
@@ -50,6 +50,7 @@ Follow these steps to complete the task, make a todo list and think ultrahard:
    - Add any relevant labels, milestones, or assignees based on the project's
      conventions.
    - use the `gh` cli tool to do so.
+   - ADD the new issue to github using gh
    - Do not proceed to write any code only the github issue until explicitly told otherwise.
    - Add the issue to the repos project page (e.g. `gh project item-add`).
 
